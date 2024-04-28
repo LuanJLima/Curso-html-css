@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+
+  <!-- Jeito Facil.  <video src="media/meu-video.mp4" width="500" controls loop autoplay></video>   -->
+
+  <video width="425" controls loop autoplay>
+    <source src="media/meu-video.mp4" type="video/mp4" >
+    <source src="media/meu-video.ogv" type="video/ogg">
+    <source src="media/meu-video.webm" type="video/webm">
+    <p>Seu navegador nao tem compatibilidadem com reprodução de videos.</p>
+  </video>
+<h1>Inserindo videos do Youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dusfmL_bm1o?si=GwQASs6X36AclH_S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,113 @@
+@import "UTF-8";
+@font-face {
+  font-family: "idroid";
+  src: url(fontes/idroid.otf) format(truetype);
+  font-weight: normal;
+  font-size: normal;
+}
+body {
+  background-color: lightgrey;
+  text-align: center;
+  box-shadow: 1px 1px 1px black;
+}
+
+header {
+  background-image: linear-gradient(to top, rgb(26, 92, 56), rgb(60, 215, 129));
+  color: lightgray;
+  text-align: center;
+  padding: 10px;
+  margin: -30px;
+}
+
+main {
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+p {
+  text-indent: 20px;
+  text-align: justify;
+}
+.principal {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: left;
+  font-family: "idroid";
+  color: rgb(26, 92, 56);
+}
+
+h2 {
+  text-indent: 10px;
+  text-align: left;
+  font-family: "idroid";
+  color: rgb(26, 92, 56);
+  background-image: linear-gradient(to right, rgb(26, 92, 56, 0.315), white);
+}
+
+nav {
+  text-align: left;
+}
+
+.menu {
+  color: white;
+  margin-right: 20px;
+  margin-left: 40px;
+  text-decoration: none;
+}
+.menu:hover {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.418);
+}
+a {
+  color: rgb(17, 58, 36);
+}
+.video {
+  background-color: rgb(26, 92, 56);
+
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+section {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+.extra {
+  background-color: rgb(132, 225, 173);
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  text-align: justify;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(26, 92, 56);
+  color: white;
+  text-align: left;
+  padding: 10px 0px 10px 10px;
+  margin: -5px;
+  border-radius: 10px 10px 0px 0px;
+}
+.custon-list {
+  column-count: 2;
+}
+
+.last-p {
+  padding: 10px 10px 10px 10px;
+  margin: -10px 10px 10px 10px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: rgb(26, 92, 56);
+  padding: 10px 10px 10px 10px;
+  margin: 10px -10px -10px -10px;
+}
