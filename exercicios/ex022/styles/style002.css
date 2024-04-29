@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU2PFVrOQD_IUa11AJdEFp5SgCpr6xL5JnI7RTnQ1NoA&s');
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
+}

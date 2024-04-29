@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    height: 98vh;
+    /*background-color: black;
+    background-image: url('../imagens/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    /* SHORT HAND - BACKGROND
+        color > image > position > repeat > [size] > attachment
+        
+        ***obs: segundo o w3c o size é para funcionar porem o navegar nao esta funcionando.***
+        */
+
+    background: black url('../imagens/wallpaper002.jpg') center center no-repeat  fixed;
+    background-size: cover;
+}
+
+ main{
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
