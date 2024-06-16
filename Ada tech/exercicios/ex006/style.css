@@ -36,9 +36,7 @@ table {
 }
 
 p{
-    font-size: 1.8rem;
     text-align: justify;
-    text-indent: 90px;
 }
 a {
     font-size: 2.4rem;
@@ -68,8 +66,13 @@ ul, ol {
 }
 
 .box {
-    height: 100px;
-    width: 200px;
-    border: 3px solid red;
+    height: 70px;
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    background-color: lightgray;
+    color: black;
+    border: 10px solid red;
     display: inline-block;
+    position: relative;
 }
